@@ -102,6 +102,7 @@
 - **📦 TensorFlow, OpenCV, Flask** để xử lý hình ảnh và phát triển mô hình.
 - **💻 PyCharm** để lập trình và kiểm thử.
 
+---
 ### 📦 Các thư viện Python cần thiết
 Cài đặt các thư viện bằng lệnh:
 
@@ -156,6 +157,7 @@ python inference.py
 3️⃣ Hệ thống sẽ hiển thị video trực tiếp kèm theo kết quả nhận dạng hành vi.
 4️⃣ Nếu phát hiện hành vi (vỗ tay, vẫy tay, đấm bốc, chạy, đi bộ...), hệ thống sẽ hiển thị cảnh báo theo thời gian thực.
 
+---
 ## ⚙️ Cấu hình & Ghi chú
 
 - **Yêu cầu phần cứng:** GPU, RAM tối thiểu 8GB.
@@ -168,6 +170,7 @@ python inference.py
   <img src="PosterNhom8.png" alt="System Architecture" width="800"/>
 </p>
 
+---
 ## 🤝 Đóng góp
 Dự án được phát triển bởi 5 thành viên:
 
