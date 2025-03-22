@@ -35,10 +35,15 @@
 </p>
 
 ---
-Project/
-└── Human_Activity_Recognition_LSTM/  # Chứa toàn bộ dự án.
-    ├── .venv/  # Môi trường ảo Python.
-    ├── dataset/  # Chứa các thư mục con với dữ liệu cho từng hoạt động.
+## 📂 Cấu trúc dự án
+
+📦 Project
+│
+└── 📂 Human_Activity_Recognition_LSTM # Chứa toàn bộ dự án.
+    │
+    ├── 📂 .venv # Môi trường ảo Python.
+    │
+    ├── 📂 dataset # Chứa các thư mục con với dữ liệu cho từng hoạt động.
     │   ├── boxing/
     │   ├── falling/
     │   ├── handclapping/
@@ -46,18 +51,21 @@ Project/
     │   ├── jogging/
     │   ├── running/
     │   └── walking/
-    ├── model/  # Chứa mô hình đã huấn luyện.
+    │
+    ├── 📂 model # Chứa mô hình đã huấn luyện
     │   └── model_7.keras
-    ├── video/  # Chứa dữ liệu video để tạo dữ liệu dataset.
+    │
+    ├── 📂 video # Chứa dữ liệu video để tạo dữ liệu dataset.
     │   ├── DATA/
     │   └── fall/
-    ├── download_dataset.py  # Script Python để tải tập dữ liệu.
-    ├── FIGURE_1.png  # Hình ảnh kết quả huấn luyện.
-    ├── inference.py  # Script Python để thực hiện suy luận (inference) với mô hình.
-    ├── make_data.py  # Script Python để tạo dữ liệu, tiền xử lý.
-    ├── make_datafall.py  # Script Python để tạo dữ liệu, tiền xử lý.
-    ├── model_plot.png  # Hình ảnh biểu đồ mô hình.
-    └── train.py  # Script Python để huấn luyện mô hình.
+    │
+    ├── download_dataset.py # Script Python để tải tập dữ liệu.
+    ├── FIGURE_1.png # Hình ảnh kết quả huấn luyện.
+    ├── inference.py # Script Python để thực hiện suy luận (inference) với mô hình.
+    ├── make_data.py # Script Python để tạo dữ liệu, tiền xử lý.
+    ├── make_datafall.py # Script Python để tạo dữ liệu, tiền xử lý.
+    ├── model_plot.png # Hình ảnh biểu đồ mô hình.
+    └── train.py # Script Python để huấn luyện mô hình.
 ---
 
 
